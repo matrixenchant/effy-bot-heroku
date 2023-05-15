@@ -14,6 +14,6 @@ def getMessage():
 
 @server.route("/")
 def webhook():
-   bot.remove_webhook()
-   bot.set_webhook(url='https://effy-bot.herokuapp.com/' + TOKEN)
+   #bot.remove_webhook()
+   #bot.set_webhook(url='https://effy-bot.herokuapp.com/' + TOKEN)
    return "!", 200
